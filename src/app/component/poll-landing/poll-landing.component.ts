@@ -45,7 +45,7 @@ export class PollLandingComponent implements OnInit {
     });
 
 
-    this.socket = io('http://localhost:3000', {
+    this.socket = io('wss://chatappbackend-unkv.onrender.com', {
       transports: ['websocket', 'polling']
     })
 

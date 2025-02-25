@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class PollService {
 
-  private _api = 'http://localhost:3000'
+  private _api = 'https://chatappbackend-unkv.onrender.com'
 
   constructor(private _http: HttpClient) { }
 

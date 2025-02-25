@@ -14,7 +14,7 @@ export class UserService {
   searchTerm$ = this.searchTermSubject.asObservable();
   private socket!: Socket;
 
-  private _api = 'http://localhost:3000'
+  private _api = 'https://chatappbackend-unkv.onrender.com'
   constructor(private _http: HttpClient) { }
 
 

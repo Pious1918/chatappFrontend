@@ -61,7 +61,7 @@ export class ChatttyComponent implements OnInit, AfterViewChecked {
 
   constructor(private _userService: UserService, private _router: Router) {
 
-    this.socket = io('http://localhost:3000', {
+    this.socket = io('wss://chatappbackend-unkv.onrender.com', {
       transports: ['websocket', 'polling']
     })
 
